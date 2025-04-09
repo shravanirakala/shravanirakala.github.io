@@ -6,9 +6,9 @@ import ScrollReveal from './ScrollReveal';
 
 const experienceData = [
   {
-    id: 'acme',
-    company: 'Acme Technologies',
-    title: 'Senior Data Engineer',
+    id: 'qvantel',
+    company: 'Qvantel',
+    title: 'Senior Software Developer',
     period: 'Jan 2021 - Present',
     responsibilities: [
       'Lead a team of 5 data engineers to build and maintain ETL pipelines processing 2TB+ daily data',

@@ -13,13 +13,13 @@ const Hero = () => {
             <ScrollReveal>
               <p className="text-primary font-medium mb-2">Hello, my name is</p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-                John Doe
+                Shravani Rakala
               </h1>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-muted-foreground mb-6">
-                I transform data into <span className="text-primary">insights</span>.
+                Crafting insights from data, <span className="text-primary"> one pipeline at a time </span>.
               </h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-xl">
-                With over 9 years of experience in ETL, Python, and database technologies, 
+                With 10 years of experience in ETL, Python, and database technologies, 
                 I specialize in building robust data pipelines and analytics solutions 
                 that drive business decisions.
               </p>

@@ -6,11 +6,11 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const About = () => {
   const personalDetails = [
-    { label: 'Name', value: 'John Doe' },
-    { label: 'Email', value: 'john.doe@example.com' },
-    { label: 'Location', value: 'San Francisco, CA' },
-    { label: 'Experience', value: '9+ Years' },
-    { label: 'Degree', value: 'M.S. Computer Science' },
+    { label: 'Name', value: 'Shravani Rakala' },
+    { label: 'Email', value: 'shravani.rakala@gmail.com' },
+    { label: 'Location', value: 'Cambridge, UK' },
+    { label: 'Experience', value: '10 Years' },
+    { label: 'Phone Number', value: '[+44]7770110741' },
     { label: 'Availability', value: 'Open to opportunities' },
   ];
 
@@ -23,22 +23,33 @@ const About = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
         <ScrollReveal delay={100}>
           <div className="space-y-6">
+
             <p className="text-lg">
-              I'm a passionate Data Engineer with 9+ years of experience in designing, implementing, 
-              and maintaining data pipelines, ETL processes, and database solutions. Throughout my career, 
-              I've worked across various industries including finance, healthcare, and e-commerce.
+            Hi, I'm Shravani Rakala, a passionate Data Engineer with 10 years of experience 
+            designing and optimizing large-scale data systems. My journey began with mastering 
+            Oracle PL/SQL and complex data migrations in the telecom and banking sectors, and has 
+            evolved into building robust, cloud-ready data pipelines using modern technologies. 
             </p>
             <p className="text-lg">
-              My expertise lies in transforming complex business requirements into efficient data 
-              architectures that enable organizations to make data-driven decisions. I'm proficient 
-              in Python, SQL, and various big data technologies, and I have experience working with 
-              cloud platforms like AWS, GCP, and Azure.
+            I'm skilled in architecting ETL workflows, automating data pipelines with Apache Airflow, 
+            and handling real-time streaming data using Apache Kafka. I’ve also worked with Apache Spark 
+            for distributed processing and Cassandra for managing high-volume, low-latency data. My recent
+            projects have involved leveraging AWS services (S3, EC2, Lambda) for scalable data solutions, 
+            and using Docker for containerization and deployment.
+            
             </p>
             <p className="text-lg">
-              When I'm not working with data, you can find me contributing to open-source projects, 
-              mentoring aspiring data engineers, or exploring new technologies to stay at the 
-              forefront of the field.
+            With a strong foundation in backend development and a growing portfolio of hands-on 
+            data engineering projects, I thrive in solving complex data challenges—ensuring clean, 
+            reliable, and actionable data for downstream applications.
             </p>
+
+            <p className="text-lg">
+            I'm currently seeking Data Engineering roles where I can contribute to building reliable data
+            infrastructure, while continuously growing in the fields of big data, cloud engineering,
+            and ML/AI-ready pipelines.
+            </p>
+
           </div>
         </ScrollReveal>
 
